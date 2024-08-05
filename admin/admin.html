@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../discord-career.html">Discord Career</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../login/login.html">Login</a>
+    </nav>
+    <div class="container">
+        <h2>Configure Your Website</h2>
+        <form id="adminForm">
+            <label for="bgColor">Background Color:</label>
+            <input type="color" id="bgColor" name="bgColor">
+            <label for="title">Website Title:</label>
+            <input type="text" id="title" name="title">
+            <label for="newGroup">New Group:</label>
+            <input type="text" id="newGroup" name="newGroup">
+            <label for="newProject">New Project:</label>
+            <input type="text" id="newProject" name="newProject">
+            <button type="submit">Update</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Personal Website</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
